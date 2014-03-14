@@ -1,5 +1,5 @@
 module Paymentwall
-	class Pingback < Paymentwall::Base
+	class Pingback < Base
 
 		PINGBACK_TYPE_REGULAR = 0
 		PINGBACK_TYPE_GOODWILL = 1

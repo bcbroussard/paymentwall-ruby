@@ -1,5 +1,5 @@
 module Paymentwall
-	class Widget < Paymentwall::Base
+	class Widget < Base
 		
 		BASE_URL = 'https://api.paymentwall.com/api'
 

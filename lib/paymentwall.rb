@@ -1,5 +1,8 @@
 require 'uri'
-require_relative 'Paymentwall/Base.rb'
-require_relative 'Paymentwall/Pingback.rb'
-require_relative 'Paymentwall/Product.rb'
-require_relative 'Paymentwall/Widget.rb'
+require 'paymentwall/base.rb'
+require 'paymentwall/pingback.rb'
+require 'paymentwall/product.rb'
+require 'paymentwall/widget.rb'
+
+module Paymentwall
+end
