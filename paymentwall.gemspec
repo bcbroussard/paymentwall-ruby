@@ -1,3 +1,4 @@
+$:.unshift(File.join(File.dirname(__FILE__), 'lib'))
 
 spec = Gem::Specification.new do |s|
   s.name = 'paymentwall'
@@ -8,6 +9,6 @@ spec = Gem::Specification.new do |s|
   s.email = ['support@paymentwall.com']
   s.homepage = 'https://paymentwall.com'
   s.license = 'MIT'
-  
+
   s.require_paths = ['lib']
 end
